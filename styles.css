@@ -1,0 +1,54 @@
+body {
+  background-color: #EAF6F6;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 8%;
+}
+h1 {
+  color: #66BFBF;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0;
+    width: 100%;
+  }
+  }
+
+h3 {
+  color: #66BFBF;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: summa;
+}
+
+@keyframes summa {
+  from {
+    color: #FFD700;
+  }
+
+50% {
+  color: #ADFF2F;
+}
+
+to {
+  color: #4B0082;
+}
+}
